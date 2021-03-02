@@ -26,4 +26,6 @@ this enables your server to push updates to the subscription’s result over tim
 Subscriptions are useful for notifying your client in real time about changes to back-end data, such as the creation of a new object or updates to an important field.
 
 ### `screenShot`
-<img src="src/assets/images/1.png" width="300" height="300"/><img src="src/assets/images/6.png" width="300" height="300"/>
+<img src="client/assets/images/1.png" width="300" height="300"/><img src="client/assets/images/2.png" width="300" height="300"/>
+<img src="client/assets/images/3.png" width="300" height="300"/><img src="client/assets/images/4.png" width="300" height="300"/>
+<img src="client/assets/images/5.png" width="300" height="300"/><img src="client/assets/images/6.png" width="300" height="300"/>
