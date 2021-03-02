@@ -1,0 +1,40 @@
+{
+  "name": "GraphQLQueryMutationSubscription",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "npm-run-all --parallel server client",
+    "client": "react-native start",
+    "server": "nodemon server/server.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.11",
+    "apollo-server-express": "^2.21.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "graphql": "^15.5.0",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "subscriptions-transport-ws": "^0.9.18"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/runtime": "^7.13.9",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.21.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.65.1",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
